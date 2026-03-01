@@ -1,3 +1,4 @@
+function BoxColor({ r, g, b }) {
 const divStyle ={
     bachgroundColor: `rgb(${r}, ${g}, ${b})`,
     color: 'black',
@@ -6,8 +7,12 @@ const divStyle ={
     border: '1px solid #ccc'
 };
 
-function BoxColor() {
-    return <div style={divStyle}></div>
+    return (
+    <div style={divStyle}>
+        rgb({r}, {g}, {b})
+    </div>
+    );
 }
+    
 
 export default BoxColor;
