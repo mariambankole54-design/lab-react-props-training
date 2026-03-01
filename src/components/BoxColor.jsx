@@ -1,5 +1,9 @@
 const divStyle ={
-    color: 'blue',
+    bachgroundColor: `rgb(${r}, ${g}, ${b})`,
+    color: 'black',
+    padding: '20px',
+    margin: '10px 0',
+    border: '1px solid #ccc'
 };
 
 function BoxColor() {

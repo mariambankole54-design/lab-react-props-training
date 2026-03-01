@@ -1,5 +1,5 @@
-function greetings({ lang, children }) {
-    let greeting;
+function Greetings({ lang, children }) {
+    let Greeting;
 
     if (lang === "de") {
         greeting = "Hallo";
@@ -15,9 +15,9 @@ function greetings({ lang, children }) {
 
     return (
         <p>
-            {greeting} {children}
+            {Greeting} {children}
         </p>
     );
     }
 
-    export default greetings;
+    export default Greetings;
